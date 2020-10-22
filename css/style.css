@@ -1083,6 +1083,7 @@ body.ie ._ibg img {
 }
 
 .header__wrap {
+  margin-bottom: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1286,7 +1287,6 @@ body.ie ._ibg img {
 }
 
 .page__main {
-  margin: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1652,6 +1652,7 @@ body.ie ._ibg img {
 }
 
 .page-works__title {
+  padding: 0 20px;
   color: #fff;
   font-weight: 900;
   font-size: 26px;
