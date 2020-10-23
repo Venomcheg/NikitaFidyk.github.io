@@ -1,6 +1,7 @@
 function email_test(input) {
 	return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
 }
+"use strict"
 const anchors = document.querySelectorAll("a[href*='#']");
 for (const anchor of anchors) {
 	anchor.addEventListener("click", function (e) {
